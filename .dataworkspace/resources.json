@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "resource_type": "git-subdirectory",
+    "name": "data",
+    "role": "source-data",
+    "relative_path": "data"
+  }
+]
