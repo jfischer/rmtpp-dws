@@ -1,0 +1,20 @@
+{
+  "hash": "7efef7557db9cd94cb1830e4cfac41a52f7bf087",
+  "tags": [
+    "10-epoch-run"
+  ],
+  "message": "",
+  "hostname": "jeff-mbp",
+  "timestamp": "2019-09-19T15:05:59.554372",
+  "relative_destination_path": "snapshots/jeff-mbp-10-epoch-run",
+  "restore_hashes": {
+    "data": "7c7f13935de19e15c91468709cdbe63f164c4e52",
+    "src": "7c7f13935de19e15c91468709cdbe63f164c4e52",
+    "results": "7c7f13935de19e15c91468709cdbe63f164c4e52"
+  },
+  "metrics": {
+    "MAE": 0.019,
+    "total_valid": 34039,
+    "ACC": 0.245
+  }
+}
