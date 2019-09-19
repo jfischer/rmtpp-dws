@@ -5,6 +5,7 @@ dependencies:
   - jupyter
   - tensorflow=1.14
   - pandas
+  - pip
   - pip:
     - dataworkspaces==1.1.1
     - decorated_options
