@@ -10,5 +10,11 @@
     "name": "src",
     "role": "code",
     "relative_path": "src"
+  },
+  {
+    "resource_type": "git-subdirectory",
+    "name": "results",
+    "role": "results",
+    "relative_path": "results"
   }
 ]

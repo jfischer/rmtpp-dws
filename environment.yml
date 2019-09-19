@@ -4,7 +4,10 @@ channels:
 dependencies:
   - jupyter
   - tensorflow=1.14
+  - pandas
   - pip:
     - dataworkspaces=1.1.1
+    - decorated_options
+    - pytest
 prefix: /Users/jfischer/anaconda3/envs/tf-tests
 
