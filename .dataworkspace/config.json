@@ -1,0 +1,12 @@
+{
+  "name": "rmtpp-dws",
+  "dws-version": "1.1.1",
+  "global_params": {
+    "results.dir_template": "snapshots/{HOSTNAME}-{TAG}",
+    "results.move_exclude_files": [
+      "README.txt",
+      "README.rst",
+      "README.md"
+    ]
+  }
+}
