@@ -38,8 +38,8 @@ def cmd(event_train_file, time_train_file, event_test_file, time_test_file,
                     'bptt':bptt,
                     'learning_rate':learning_rate
                 })\
-                .with_input_paths(event_train_file, time_train_file,
-                                  event_test_file, time_test_file)
+                .with_input_paths([event_train_file, time_train_file,
+                                   event_test_file, time_test_file])
     if metrics_dir and test_eval:
         builder.as_results_step(metrics_dir)
     with builder.eval() as lineage:
