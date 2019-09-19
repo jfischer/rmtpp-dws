@@ -1,0 +1,149 @@
+{
+  "resource_name": "results",
+  "complete": true,
+  "lineages": [
+    {
+      "type": "step",
+      "step_name": "run_with_lineage",
+      "start_time": "2019-09-19T14:40:20.938148",
+      "execution_time_seconds": 1354.402219,
+      "parameters": {
+        "num_epochs": 10,
+        "scale": 1.0,
+        "batch_size": 10,
+        "bptt": 20,
+        "learning_rate": 0.1
+      },
+      "input_resources": [
+        {
+          "resource_name": "data",
+          "subpath": "real/ali/event-train.txt",
+          "certificate": {
+            "cert_type": "hash",
+            "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+            "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+          }
+        },
+        {
+          "resource_name": "data",
+          "subpath": "real/ali/time-train.txt",
+          "certificate": {
+            "cert_type": "hash",
+            "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+            "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+          }
+        },
+        {
+          "resource_name": "data",
+          "subpath": "real/ali/event-test.txt",
+          "certificate": {
+            "cert_type": "hash",
+            "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+            "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+          }
+        },
+        {
+          "resource_name": "data",
+          "subpath": "real/ali/time-test.txt",
+          "certificate": {
+            "cert_type": "hash",
+            "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+            "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+          }
+        }
+      ],
+      "code_resources": [
+        {
+          "resource_name": "src",
+          "subpath": null,
+          "certificate": {
+            "cert_type": "hash",
+            "hashval": "0c733c2c013e5b893fb10d86fd50ef5efd5e1be7",
+            "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+          }
+        }
+      ],
+      "output_resources": [
+        {
+          "resource_name": "results",
+          "subpath": null,
+          "certificate": {
+            "cert_type": "hash",
+            "hashval": "118a24c9641e70ad73bb377ac008e24cf9b1154e",
+            "comment": "Step run_with_lineage at 2019-09-19 14:40:20.938148"
+          }
+        }
+      ],
+      "command_line": [
+        "/Users/jfischer/anaconda3/envs/tf-tests/bin/python",
+        "src/run_with_lineage.py",
+        "data/real/ali/event-train.txt",
+        "data/real/ali/time-train.txt",
+        "data/real/ali/event-test.txt",
+        "data/real/ali/time-test.txt",
+        "--epochs=10",
+        "--train-eval",
+        "--test-eval",
+        "--summary",
+        "./tfevents",
+        "--metrics",
+        "./results",
+        "--batch-size",
+        "10",
+        "--restart",
+        "--cpu-only"
+      ],
+      "run_from_directory": null
+    },
+    {
+      "resource_name": "data",
+      "subpath": "real/ali/event-train.txt",
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "source_data"
+    },
+    {
+      "resource_name": "data",
+      "subpath": "real/ali/time-train.txt",
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "source_data"
+    },
+    {
+      "resource_name": "data",
+      "subpath": "real/ali/event-test.txt",
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "source_data"
+    },
+    {
+      "resource_name": "data",
+      "subpath": "real/ali/time-test.txt",
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "source_data"
+    },
+    {
+      "resource_name": "src",
+      "subpath": null,
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "0c733c2c013e5b893fb10d86fd50ef5efd5e1be7",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "code"
+    }
+  ]
+}

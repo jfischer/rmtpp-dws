@@ -1,0 +1,15 @@
+{
+  "resource_name": "src",
+  "lineages": [
+    {
+      "resource_name": "src",
+      "subpath": null,
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "0c733c2c013e5b893fb10d86fd50ef5efd5e1be7",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "code"
+    }
+  ]
+}

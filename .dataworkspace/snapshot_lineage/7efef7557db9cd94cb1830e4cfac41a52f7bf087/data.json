@@ -1,0 +1,45 @@
+{
+  "resource_name": "data",
+  "lineages": [
+    {
+      "resource_name": "data",
+      "subpath": "real/ali/event-train.txt",
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "source_data"
+    },
+    {
+      "resource_name": "data",
+      "subpath": "real/ali/time-train.txt",
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "source_data"
+    },
+    {
+      "resource_name": "data",
+      "subpath": "real/ali/event-test.txt",
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "source_data"
+    },
+    {
+      "resource_name": "data",
+      "subpath": "real/ali/time-test.txt",
+      "certificate": {
+        "cert_type": "hash",
+        "hashval": "cc2e98a39ca273eaac7aee9545ec14b3e73a5b8c",
+        "comment": "Step run_with_lineage at 2019-09-19 14:13:50.712958"
+      },
+      "type": "source_data"
+    }
+  ]
+}
