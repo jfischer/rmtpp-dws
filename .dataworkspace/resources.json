@@ -4,5 +4,11 @@
     "name": "data",
     "role": "source-data",
     "relative_path": "data"
+  },
+  {
+    "resource_type": "git-subdirectory",
+    "name": "src",
+    "role": "code",
+    "relative_path": "src"
   }
 ]
