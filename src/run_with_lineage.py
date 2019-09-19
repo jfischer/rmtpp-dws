@@ -98,9 +98,9 @@ def cmd(event_train_file, time_train_file, event_test_file, time_test_file,
                                                      data['test_event_out_seq'])
             if metrics_dir:
                 lineage.write_results({
-                    'MAE':mae,
-                    'total_valid':total_valid,
-                    'ACC':acc
+                    'MAE':round(float(mae), 3),
+                    'total_valid':int(total_valid),
+                    'ACC':round(float(acc), 3)
                 })
         print()
 
