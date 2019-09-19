@@ -1,0 +1,18 @@
+{
+  "step": "run_with_lineage",
+  "start_time": "2019-09-19T14:40:20.938148",
+  "execution_time_seconds": 1354.402219,
+  "parameters": {
+    "num_epochs": 10,
+    "scale": 1.0,
+    "batch_size": 10,
+    "bptt": 20,
+    "learning_rate": 0.1
+  },
+  "run_description": null,
+  "metrics": {
+    "MAE": 0.019,
+    "total_valid": 34039,
+    "ACC": 0.245
+  }
+}
