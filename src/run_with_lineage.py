@@ -43,8 +43,8 @@ def cmd(event_train_file, time_train_file, event_test_file, time_test_file,
     if metrics_dir and test_eval:
         builder.as_results_step(metrics_dir)
     with builder.eval() as lineage:
-        if summary_dir:
-            lineage.add_output_path(summary_dir)
+        #if summary_dir:
+        #    lineage.add_output_path(summary_dir)
 
         data = tf_rmtpp.utils.read_data(
             event_train_file=event_train_file,
