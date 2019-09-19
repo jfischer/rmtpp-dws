@@ -1,0 +1,10 @@
+name: tf-tests
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - tensorflow=1.14
+  - pip:
+    - dataworkspaces=1.1.1
+prefix: /Users/jfischer/anaconda3/envs/tf-tests
+
